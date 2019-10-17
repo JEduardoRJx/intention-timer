@@ -85,7 +85,7 @@ form {
   border: none;
   width: 100px;
   height: 30px;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 .accomplish-div {
@@ -124,4 +124,9 @@ input {
   width: 100%;
   height: 95%;
   padding: 15px;
+}
+
+.clicked {
+  background-color: red;
+  color: yellow;
 }
