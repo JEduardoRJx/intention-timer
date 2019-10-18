@@ -23,22 +23,29 @@
             </div>
             <div class='accomplish-div'>
               <label>What would you like to accomplish during this time?</label>
-              <input type='text' >
+              <input class='accomplish' type='text' >
             </div>
             <div class='time-div'>
                 <label>Minutes</label>
-                <input type='number'>
+                <input class='minutes' type='text'>
                 <label>Seconds</label>
-            <input type='number' >
+                <input class='seconds' type='text' >
             <button class='start-btn' type='button'>START</button>
             </div>
           </div>
         </form>
+
+        <div class='timer hide'>
+          <h2 class='timer-seconds'>
+          </h2>
+          <button class='timer-btn' type='button'>Start</button>
+          <button class='log-activity'>Log Activity</button>
+        </div>
       </section>
       <section class='past-act-section'>
           <label>New Activity</label>
           <div class='new-act-wrapper'>
-            <h2>You Haven't logged any activities yet.</h2>
+            <h2 class='you-havent-logged'>You Haven't logged any activities yet.</h2>
           </div>
       </section >
     </main>
